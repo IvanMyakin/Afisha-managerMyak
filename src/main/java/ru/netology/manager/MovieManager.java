@@ -15,7 +15,7 @@ public class MovieManager {
     }
 
     public void add(Movie movie) {
-        Movie[] tmp = new Movie[movies.length +1];
+        Movie[] tmp = new Movie[movies.length + 1];
         for (int i = 0; i < movies.length; i++) {
             tmp[i] = movies[i];
         }
